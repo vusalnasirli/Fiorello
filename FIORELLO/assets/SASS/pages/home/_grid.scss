@@ -1,0 +1,20 @@
+.mydiv2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.mydiv2 ul {
+    display: flex;
+    list-style: none;
+}
+.mydiv2 ul li a{
+    text-decoration: none;
+    color: #1B1B1B;
+    margin: 20px;
+    transition: all .3s ease;
+}
+.mydiv2 ul li a:hover{
+    color: #f34f3f;
+}

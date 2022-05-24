@@ -3,7 +3,24 @@
 #slider {
    padding: 6% 0px;
    font-family: 'Lora', serif;
+   position: relative;
+   
 }
 h1 span{
     color: #FF0000;
+}
+.title{
+    position: absolute;
+    z-index: 6;
+    top: 30%;
+    left: 15%;
+}
+#slider p{
+    font-size: 19px;
+    margin: 28px 0px;
+    opacity: .8;
+}
+#slider h1{
+    font-size: 60px;
+    font-weight: 500;
 }

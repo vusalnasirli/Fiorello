@@ -1,9 +1,60 @@
 #slider {
   padding: 6% 0px;
   font-family: 'Lora', serif;
+  position: relative;
 }
 
 h1 span {
   color: #FF0000;
+}
+
+.title {
+  position: absolute;
+  z-index: 6;
+  top: 30%;
+  left: 15%;
+}
+
+#slider p {
+  font-size: 19px;
+  margin: 28px 0px;
+  opacity: .8;
+}
+
+#slider h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.mydiv2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 70px;
+}
+
+.mydiv2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.mydiv2 ul li a {
+  text-decoration: none;
+  color: #1B1B1B;
+  margin: 20px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.mydiv2 ul li a:hover {
+  color: #f34f3f;
 }
 /*# sourceMappingURL=index.css.map */
