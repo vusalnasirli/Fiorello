@@ -2,18 +2,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 70px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .mydiv2 ul {
     display: flex;
     list-style: none;
+    font-size: 13px;
 }
 .mydiv2 ul li a{
     text-decoration: none;
     color: #1B1B1B;
     margin: 20px;
-    transition: all .3s ease;
+    transition: all .2s ease-out;
 }
 .mydiv2 ul li a:hover{
     color: #f34f3f;
@@ -49,23 +52,38 @@
 //     display: block;
 // }
 
-}
+// }
 #grid{
     font-family: 'Montserrat', sans-serif;
 }
-#grid h1{
-    font-size: 13px ;
-    font-weight: 500;
-    color: black;
-    padding-top: 20px;
+#grid {
+    h1{
+        font-size: 13px ;
+        font-weight: 500;
+        color: black;
+        padding-top: 20px;
 }
-#grid span{
-    font-size: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: .5;
 }
-#grid .card{
+#grid{
+    span{
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: .5;
+    }
+} 
+.card{
     border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .2s ease;
+}
+  .card-img{
+      overflow: hidden;
+    }
+
+.card-img img:hover{
+    transform: scale( 1.05);
+    transition: all .6s ease;
 }

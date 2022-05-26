@@ -36,7 +36,9 @@ h1 span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 70px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
 
 .mydiv2 ul {
@@ -44,22 +46,19 @@ h1 span {
   display: -ms-flexbox;
   display: flex;
   list-style: none;
+  font-size: 13px;
 }
 
 .mydiv2 ul li a {
   text-decoration: none;
   color: #1B1B1B;
   margin: 20px;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
 }
 
 .mydiv2 ul li a:hover {
   color: #f34f3f;
-}
-
-#grid .mydiv2 {
-  padding-top: 30px;
 }
 
 #grid {
@@ -87,7 +86,22 @@ h1 span {
   opacity: .5;
 }
 
-#grid .card {
+.card {
   border: none;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.card-img {
+  overflow: hidden;
+}
+
+.card-img img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all .6s ease;
+  transition: all .6s ease;
 }
 /*# sourceMappingURL=index.css.map */
